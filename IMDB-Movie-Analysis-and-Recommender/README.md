@@ -1,6 +1,6 @@
 # IMDB Top 1000: Data Analysis and Content-Based Recommender
 
- https://imgur.com/a/w7ddoEM
+![alt text](https://imgur.com/a/w7ddoEM "Correlation Matrix for Numeric Features")
 
 ## Table of Contents
 * [Project Overview](#project-overview)
