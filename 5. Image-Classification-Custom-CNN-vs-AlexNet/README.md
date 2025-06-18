@@ -2,7 +2,7 @@
 
 This project implements and compares two distinct Convolutional Neural Network (CNN) architectures for image classification on the CIFAR-10 and MNIST datasets. The primary goals were to design a custom CNN, adapt a well-known architecture (AlexNet), systematically compare their performance, and improve the best-performing model using data augmentation.
 
-
+![Image](https://github.com/user-attachments/assets/02d25bf5-d315-4cc2-9bcf-3d27d17a9fd9)
 
 ## Table of Contents
 * [Project Goal](#project-goal)
