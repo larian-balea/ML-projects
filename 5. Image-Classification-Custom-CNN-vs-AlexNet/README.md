@@ -36,27 +36,17 @@ The comparison was focused on the more challenging CIFAR-10 dataset.
 
 | Metric                | Best Custom CNN (V2)  | AlexNet-inspired      |
 | --------------------- | --------------------- | --------------------- |
-| **Test Accuracy**     | `XX.XX%`              | **`XX.XX%`**          |
-| **Model Parameters**  | `~XXX,XXX`            | `~XXX,XXX`            |
-| **Generalization**    | Good, but slightly... | **Superior**; smaller...|
-
-*(Note: Fill in the table with your actual results. The numbers and conclusion will depend on your final runs.)*
+| **Test Accuracy**     | `66.28%`              | **`62.92%`**          |
 
 ## Improving Performance with Data Augmentation
-The AlexNet-inspired model was selected for further improvement.
+The Best Custom CNN model was selected for further improvement.
 - **Diagnosis:** The initial classification report showed lower F1-scores for classes like 'cat' and 'dog', indicating confusion with other animal classes.
 - **Solution:** `ImageDataGenerator` was applied to the training data.
 - **Result:**
-  - Accuracy Before Augmentation: **`XX.XX%`**
-  - Accuracy After Augmentation: **`XX.XX%`**
+  - Accuracy Before Augmentation: **`66.28%`**
+  - Accuracy After Augmentation: **`70.28%`**
 - The augmented model demonstrated improved accuracy and a more balanced performance across all classes, confirming the strategy's success.
 
 ## Key Takeaways
-- **Architecture Matters:** The deeper, more structured AlexNet-inspired model, despite its complexity, ultimately achieved better generalization on CIFAR-10.
 - **Iterative Design is Key:** Systematically testing variations of the custom CNN was crucial to finding a competitive baseline.
 - **Data Augmentation is a Powerful Tool:** Augmentation proved to be highly effective in improving model robustness and overcoming challenges with confusing classes.
-
-## How to Run
-1.  Clone the repository.
-2.  Install dependencies from `requirements.txt`.
-3.  Run the Jupyter Notebook to replicate the training, evaluation, and analysis.
