@@ -2,7 +2,7 @@
 
 This project applies classical machine learning regression models to predict the worldwide gross revenue of movies from the IMDB Top 1000 dataset. The focus is on the complete ML pipeline: feature engineering, model training, comparison, and interpretation using Python and Scikit-learn.
 
-
+![Image](https://github.com/user-attachments/assets/3c1394c6-90ed-47fc-ba4a-44e6bc12dc43)
 
 ## Table of Contents
 * [Project Goal](#project-goal)
